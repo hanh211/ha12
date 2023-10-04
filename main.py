@@ -52,8 +52,8 @@ class Manager(ScreenManager):
 
     def results(self):
         sound = SoundLoader.load('sound/click.wav')
-        # print(self.ids.firstname.text)
-        # print(self.ids.secondname.text)
+        print(self.ids.firstname.text)
+        print(self.ids.secondname.text)
         first = self.ids.firstname.text
         second = self.ids.secondname.text
         results = lovecal.calculator(first, second)
