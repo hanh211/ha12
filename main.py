@@ -37,6 +37,7 @@ class CameraClick(BoxLayout):
 class TestCamera(App):
 
     def build(self):
+        self.icon = 'images/appicon.png'
         return CameraClick()
 
 
